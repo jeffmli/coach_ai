@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-07-19T10:30:34.694842",
+  "input_file": "data/input/coaching_session_#1.mov",
+  "transcript_file": "data/transcripts/coaching_session_#1_transcript_20250719_102310.txt",
+  "summary_file": "data/summaries/coaching_session_#1_summary_detailed_20250719_103034.txt",
+  "processing_info": {
+    "video_info": {
+      "duration": 6348.583333,
+      "size": 2142670644,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "width": 1920,
+      "height": 1080
+    },
+    "whisper_model": "base",
+    "openai_model": "gpt-3.5-turbo",
+    "summary_type": "detailed",
+    "language_detected": "en",
+    "transcript_duration": 6343.3
+  }
+}

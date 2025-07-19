@@ -79,8 +79,8 @@ Examples:
     
     parser.add_argument(
         "--output-dir",
-        default="transcripts/",
-        help="Output directory for transcripts (default: transcripts/)"
+        default="data/transcripts/",
+        help="Output directory for transcripts (default: data/transcripts/)"
     )
     
     parser.add_argument(

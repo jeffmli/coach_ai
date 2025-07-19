@@ -1,7 +1,8 @@
-# Transcript and summary files
+# Transcript and summary files (but keep sample/test files)
 *_transcript*.txt
 *_summary*.txt
 coaching_session_*.txt
+!test_*.txt
 
 # Python
 __pycache__/
@@ -43,9 +44,12 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Data directories
-data/
+# Data directories (keep structure but ignore content)
+data/input/*
+data/temp/*
+!data/input/.gitkeep
+!data/temp/.gitkeep
+
+# Root level transcript/summary files (use data/ structure instead)
 transcripts/
 summaries/
-temp/
-metadata/

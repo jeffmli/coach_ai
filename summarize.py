@@ -9,7 +9,7 @@ Usage:
 import argparse
 import sys
 from pathlib import Path
-from modules.summarizer import Summarizer
+from pipeline.summarizer import Summarizer
 
 
 def extract_transcript_text(file_path: str) -> str:
@@ -56,8 +56,8 @@ Examples:
     
     parser.add_argument(
         "--model",
-        default="gpt-4-turbo",
-        help="OpenAI model to use (default: gpt-4-turbo)"
+        default="gpt-4.1",
+        help="OpenAI model to use (default: gpt-4.1)"
     )
     
     args = parser.parse_args()
