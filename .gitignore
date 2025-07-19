@@ -1,5 +1,7 @@
-# Transcript files
-*.txt
+# Transcript and summary files
+*_transcript*.txt
+*_summary*.txt
+coaching_session_*.txt
 
 # Python
 __pycache__/
