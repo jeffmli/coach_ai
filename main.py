@@ -9,7 +9,7 @@ import argparse
 import sys
 import subprocess
 from pathlib import Path
-from modules.summarizer import Summarizer
+from pipeline.summarizer import Summarizer
 
 
 def run_whisper_transcription(video_file: str, model: str = "small", output_dir: str = "transcripts/") -> str:
